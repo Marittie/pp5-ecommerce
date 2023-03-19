@@ -5,12 +5,16 @@ html {
 }
 
 body {
-    background: url('/media/vintage-shop.webp') no-repeat center center fixed;
+    background: url('/media/pexels-photo-6069544.webp') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
-    color: #9f9898;
+    color: #b61f1f;
     font-family: 'Montserrat';
     background-color: rgb(240, 229, 229);
+}
+
+#topnav {
+    line-height: 1.5rem;
 }
 
 /* from Bulma */
@@ -63,6 +67,15 @@ body {
 
 .border-black {
     border: 1px solid black !important;
+}
+
+/* Home Page */
+
+.buy-donate{
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    color: black;
+    text-align: center;
 }
 
 /* -------------------------------- Media Queries */
