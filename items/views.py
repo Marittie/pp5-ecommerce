@@ -4,8 +4,6 @@ from django.db.models import Q
 from django.db.models.functions import Lower
 from .models import Item, Category
 
-# Create your views here.
-
 
 def all_items(request):
     """ A view to show all products, including sorting and search queries """
