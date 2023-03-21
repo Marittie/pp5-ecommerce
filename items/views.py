@@ -42,7 +42,7 @@ def all_items(request):
         if 'q' in request.GET:
             query = request.GET['q']
             if not query:
-                messages.error(request, "You didn't enter any searh criteria!")
+                messages.error(request, "You didn't enter any search criteria!")
                 return redirect(reverse('items'))
 
             queries = Q(name__icontains=query) | Q(
