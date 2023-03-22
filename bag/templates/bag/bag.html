@@ -28,7 +28,7 @@
                 <div class="d-block d-md-none">
                     <div class="row">
                         <div class="col">
-                            <!-- bag toal cost -->
+                            <!-- bag total cost -->
                             {% include "bag/bag_total.html" %}
                         </div>
                     </div>
@@ -43,10 +43,10 @@
                     {% for item in bag_items %}
                     <div class="row">
                         <div class="col-12 col-sm-6 mb-2">
-                            {% %}
+                            {% include "bag/product_image.html" %}
                         </div>
                         <div class="col-12 col-sm-6 mb-2">
-                            {%%}
+                            {% include "bag/product_info.html" %}
                         </div>
                         <div class="col-12 col-sm-6 order-sm-last">
                             <p class="my-0">Quantity:{{ item.quantity }}</p>
@@ -80,7 +80,7 @@
                                         <img class="img-fluid rounded" src="{{ item.item.image.url }}">
                                     </td>
                                     <td class="py-3">
-                                        {% %}
+                                        {% include "bag/product_info.html" %}
                                     </td>
                                     <td class="py-3">
                                         <p class="my-0">£{{ item.item.price }}</p>
@@ -89,18 +89,18 @@
                                         <p class="my-0">{{ item.quantity }}</p>
                                     </td>
                                     <td class="py-3">
-                                        {%%}
+                                        {% include "bag/delete_item.html" %}
                                     </td>
                                 </tr>
                             {% endfor %}
                             <tr>
                                 <td colspan="5" class="pt-5 text-right">
-                                    {%%}
+                                    {% include "bag/bag_total.html" %}
                                 </td>
                             </tr>
                             <tr>
                                 <td colspan="5" class="text-right">
-                                    {%%}
+                                    {% include "bag/checkout_buttons.html" %}
                                 </td>
                             </tr>
                         </table>
