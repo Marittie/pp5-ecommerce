@@ -1,0 +1,121 @@
+{% extends "base.html" %}
+{% load static %}
+
+<!-- container to move the rest of the body down from under the nav bar -->
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+<!-- overlay to chage the background colour -->
+    <div class="overlay"></div>
+    <div class="container mb-2">
+        <div class="row">
+            <div class="col">
+                <hr>
+                <h2 class="logo-font mb-4">Shopping Bag</h2>
+                <hr>
+            </div>
+        </div>
+        <!-- for small screens -->
+        <div class="row">
+            <div class="col">
+                {% if bag_items %}
+                <div class="d-block d-md-none">
+                    <div class="row">
+                        <div class="col">
+                            <!-- bag toal cost -->
+                            {% include "bag/bag_total.html" %}
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <!-- checkout buttons -->
+                            {% include "bag/checkout_buttons.html" %}
+                            <p class="mb-5">A summary of your contents is below</p>
+                        </div>
+                    </div>
+                    <!-- looping through the items in the bag -->
+                    {% for item in bag_items %}
+                    <div class="row">
+                        <div class="col-12 col-sm-6 mb-2">
+                            {% %}
+                        </div>
+                        <div class="col-12 col-sm-6 mb-2">
+                            {%%}
+                        </div>
+                        <div class="col-12 col-sm-6 order-sm-last">
+                            <p class="my-0">Quantity:{{ item.quantity }}</p>
+                            <p class="my-0">PriceL<strong>£{{ item.item.price }}</strong></p>
+                        </div>
+                        <div class="col-12 col-sm-6">
+                            <!-- delete button -->
+                            {% include "bag/delete_item.html" %}
+                        </div>
+                    </div>
+                    <div class="row"><div class="col"><hr></div></div>
+                    {% endfor %}
+                </div>
+                <!-- for larger screens -->
+                    <div class="table-responsive rounded d-none d-md-block">
+                        <table class="table table-sm table-borderless">
+                            <thead class="text-black">
+                                <tr>
+                                    <th scope="col">Product Info</th>
+                                    <th scope="col"></th>
+                                    <th scope="col">Price</th>
+                                    <th scope="col">Qty</th>
+                                    <th scope="col"></th>
+                                    <th scope="col">Remove</th>
+                                </tr>
+                            </thead>
+                            <!-- all items in the bag -->
+                            {% for item in bag_items %}
+                                <tr>
+                                    <td class="p-3 w-25">
+                                        <img class="img-fluid rounded" src="{{ item.item.image.url }}">
+                                    </td>
+                                    <td class="py-3">
+                                        {% %}
+                                    </td>
+                                    <td class="py-3">
+                                        <p class="my-0">£{{ item.item.price }}</p>
+                                    </td>
+                                    <td class="py-3">
+                                        <p class="my-0">{{ item.quantity }}</p>
+                                    </td>
+                                    <td class="py-3">
+                                        {%%}
+                                    </td>
+                                </tr>
+                            {% endfor %}
+                            <tr>
+                                <td colspan="5" class="pt-5 text-right">
+                                    {%%}
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="5" class="text-right">
+                                    {%%}
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                {% else %}
+                <!-- if nothing is is in the bag -->
+                    <p class="lead mb-5">Your bag is empty.</p>
+                    <a href="{% url 'items' %}" class="btn btn-outline-black rounded-0 btn-lg">
+                        <span class="icon">
+                            <i class="fas fa-chevron-left"></i>
+                        </span>
+                        <span class="text-uppercase">Keep Shopping</span>
+                    </a>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+{% endblock %}
