@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% block content %}
+{% load crispy_forms_tags %}
+{% load static %}
+
+{% block extra_css %}
+    <link rel="stylesheet" href="{% static 'blog/css/blog.css' %}">
+{% endblock %}
+
+<div class="container header-container">
+    <div class="row">
+        <div class="col"></div>
+    </div>
+</div>
+
+
+<div class="overlay"></div>
+
+
+<div class="container">
+    <!-- Edit blog post form heading and information -->
+    <h1 class="text-center">Edit your Blog Post</h1>
+    
+    <p>If you have any updates to your blog post please update them here.</p>
+    <!-- Edit blog post form-->
+    <form class="edit_idea_form" action="{% url 'edit_blog' blogpost.id %}" method="POST" enctype="multipart/form-data">
+
+        {% csrf_token %}
+
+        {{ form.id }}
+        {{ form|crispy }}
+        {{ form.media }}
+
+        <input class="button btn-black" type="submit" value="Submit">
+    </form>
+
+</div>
+{% endblock %}

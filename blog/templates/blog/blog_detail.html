@@ -1,0 +1,75 @@
+{% extends "base.html" %}
+{% load static %}
+{% load crispy_forms_tags %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'blog/css/blog.css' %}">
+{% endblock %}
+<!-- header container for spacing -->
+{% block page_header %}
+<div class="container header-container">
+    <div class="row">
+        <div class="col"></div>
+    </div>
+</div>
+{% endblock %}
+{% block content %}
+
+
+<div class="masthead">
+    <div class="container pic-padding card">
+        <div class="row g-0">
+            <div class="col-12 text-center blog-header">
+                <h1 class="post-title"> {{ blogpost.event_name }}</h1>
+                <h2 class="post-title">We raised <strong>£{{ blogpost.donation_amount }}</strong> for {{ blogpost.charity_name }}</h2>
+                <!-- Buttons for superuser to delete and edit post -->
+                {% if request.user.is_superuser %}
+                <p>
+                    <a class="blog-post-link" href="{% url 'edit_blog' blogpost.id %}" class="edit-blog" aria-label="Click to edit idea">
+                        Edit your blog
+                    </a>
+                
+                    <a class="blog-post-link delete-blog" href="{% url 'blog_delete' blogpost.id %}"  aria-label="Click to delete idea">
+                        Delete your blog
+                    </a>
+                </p>
+                {% endif %}
+            </div>
+        </div>
+        <div class="row g-0">
+            <div class="d-md-block col-md-12 card">
+                {% if "placeholder" in blogpost.picture.url %}
+                <!-- placeholder picture -->
+                <img class="card-img-top border border-light blog-detail-pic" src="{{MEDIA_URL}}blog-pic.png" alt="">
+                {% else %}
+                <!-- uploaded picture -->
+                <img class="card-img-top border border-light blog-detail-pic" src="{{ blogpost.image.url }}" alt="">
+                {% endif %}
+            </div>
+        </div>
+    </div>
+    <div class="container summary">
+        <div class="row">
+            <div class="col card mb4 mt3 left top">
+                <!-- Blog Summary -->
+                <p class="card-text">
+                    {{ blogpost.summary | safe }}
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="card website col-md-12">
+                <!-- Charity Website Address-->
+                <p> Charity Website:
+                    <a class="text-black" href="{{ blogpost.charity_website }}" target="_blank" rel="noopener"
+                        aria-label="Please visit the website linked to {{blogpost.charity_name}} (opens in a new window)">
+                        {{ blogpost.charity_website }}</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock content %}
