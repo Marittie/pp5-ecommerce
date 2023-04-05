@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Online Vintage Shop, Selling and Collecting second hand clothes and toys.">
+            <meta name="keywords" content="Charity Shop, second hand clothes, clothes donations, vintage clothes, second hand toys
+            Kids clothes, womens vintage clothes, mens vintage clothes, giving to charity">
     {% endblock %}
 
     {% block extra_meta %}
@@ -103,18 +106,7 @@
             {% include 'includes/main-nav.html' %}
         </nav>
     </div>
-    <div class="row text-center">
-        <div class="col bg-black text-white">
-            <ul class="list-inline list-unstyled text-center nav-font background">
-                <li class="list-inline-item nav-font"><a class="donate_subscribe" href="{% url 'blog' %}" >Blog</a></li>
-                <li class="list-inline-item nav-font"><a class="donate_subscribe" href="{% url 'reviews' %}" >Reviews</a></li>
-                <li class="list-inline-item nav-font"><a class="donate_subscribe" href="{% url 'donations' %}" >Donate your clothes and toys</a></li>
-                <li class="list-inline-item nav-font"><a class="donate_subscribe" href="">Subscribe</a></li>  
-            </ul>               
-        </div>            
-    </div>
 </header>
-
 {% if messages %}
     <div class="message-container">
         {% for message in messages %}
@@ -136,7 +128,6 @@
 
 {% block page_header %}
 {% endblock %}
-
 {% block content %}
 {% endblock %}
 
@@ -145,9 +136,18 @@
     $('.toast').toast('show');
 </script>
 {% endblock %}
-
             <!-- Footer -->
             <footer class="footer mt-auto py-3 bg-black background">
+                <div class="row text-center">
+                    <div class="col bg-black text-white">
+                        <ul class="list-inline list-unstyled text-center nav-font background">
+                            <li class="list-inline-item nav-font"><a class="donate_subscribe" href="{% url 'blog' %}" >Blog</a></li>
+                            <li class="list-inline-item nav-font"><a class="donate_subscribe" href="{% url 'reviews' %}" >Reviews</a></li>
+                            <li class="list-inline-item nav-font"><a class="donate_subscribe" href="{% url 'donations' %}" >Donate your clothes and toys</a></li>
+                            <li class="list-inline-item nav-font"><a class="donate_subscribe" href="">Subscribe</a></li>  
+                        </ul>               
+                    </div>            
+                </div>
                 <p class="m-0 text-center text-white">Jordaan Vintage & Charity</p>
                 <p class="m-0 text-center text-white" > contact us at Jordaanvintage&charity@gmail.com</p>
                     <p class="m-0 text-center text-white">Follow us:
@@ -168,7 +168,6 @@
                         aria-label="Please visit our Youtube Page (opens in a new tab)">
                         <i class="fab fa-youtube-square ms-3"></i></a>
                 </p>
-                
             </footer>
 
 

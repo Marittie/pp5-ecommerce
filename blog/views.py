@@ -42,7 +42,7 @@ class BlogPostCreateView(UserPassesTestMixin, CreateView):
         """ If form is valid return to browse blog posts """
 
         messages.success(self.request, 'Blog post created successfully')
-        return super(BlogCreateView, self).form_valid(form)
+        return super(BlogPostCreateView, self).form_valid(form)
 
 
 class EditBlogPostView(UserPassesTestMixin, UpdateView):
@@ -51,7 +51,7 @@ class EditBlogPostView(UserPassesTestMixin, UpdateView):
     Model = BlogPost
     form_class = BlogPostForm
     success_url = "/blog/blog/"
-    template_name = "blog/blog_edit.html"
+    template_name = "blog/edit_blog.html"
 
     def get_object(self):
         id_ = self.kwargs.get("id")
@@ -59,7 +59,7 @@ class EditBlogPostView(UserPassesTestMixin, UpdateView):
 
     def test_func(self):
         """tests the user has the correct email for superuser"""
-        return self.request.user.email.startswith('email@email')
+        return self.request.user.is_superuser
 
     def form_valid(self, form):
         """ If form is valid return to browse blog posts """
@@ -75,7 +75,7 @@ class BlogPostDelete(UserPassesTestMixin, DeleteView):
 
     def test_func(self):
         """tests the user has the correct email for superuser"""
-        return self.request.user.email.startswith('email@email')
+        return self.request.user.is_superuser
 
     def get_object(self):
         id_ = self.kwargs.get("id")
