@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Montserrat&display=swap');
 
 html {
     height: 100%;
@@ -29,7 +29,7 @@ body {
 
 .logo-font {
     text-transform: uppercase;
-    font-family: 'Lobster', sans-serif;
+    font-family: 'Alkatra', sans-serif;
 }
 
 .nav-font {
@@ -72,7 +72,7 @@ body {
 .btn-black:hover,
 .btn-black:active,
 .btn-black:focus {
-    background: #222;
+    background: black;
     color: white;
 }
 
@@ -83,8 +83,8 @@ body {
 /* Home Page */
 
 .buy-donate{
-    background-color: rgba(255, 255, 255, 0.8);
-    border-radius: 20px;
+    background-color: white;
+    border-radius: 15px;
     color: black;
     text-align: center;
 }
@@ -131,6 +131,33 @@ a.category-badge > span.badge:hover {
     
 }
 
+/* review page */
+
+.write-review {
+    margin-bottom: 15px;
+    border-radius: 15px;
+    padding: 15px;
+    background-color: white;
+    color: black;
+    text-transform: capitalize;
+    opacity: 0.8;
+}
+
+.logo-font-review {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-family: 'Alkatra', sans-serif;
+    opacity: 0.8;
+}
+
+.review-body {
+    border-radius: 10px;
+    border: solid 2px black;
+    opacity: 0.8;
+}
+
 /* overlay  */
 .overlay {
     height: 100%;
@@ -139,8 +166,9 @@ a.category-badge > span.badge:hover {
     left: 0;
     position: fixed;
     background: white;
-    z-index: -1;
+    z-index: -0.5;
 }
+
 
 /* toasts */ 
 

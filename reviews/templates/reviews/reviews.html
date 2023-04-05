@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block extra_css %}
+
+{% endblock %}
+<!-- spacing container -->
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+{% block content %}
+
+    <div class="container">
+        <div class="row">
+            <div class="col d-flex justify-content-center">
+                <h1 class="logo-font-review">Reviews</h1>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col d-flex justify-content-center write-review text-center">
+                <p>We would love to hear from you. All suggestions and comments are welcome!                    
+                    <a class="text-black" href="{% url 'create_review' %}"><strong>Please click here to write a review</strong></a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- list of reviews -->
+    {% for review in reviews %}
+    <div class="container">
+        <div class="row">
+            <div class="col d-flex justify-content-center">
+                <div class="card text-center review-body" style="width: 122rem;">
+                    <div class="card-body">
+                        <h2 class="card-title"><strong>{{ review.title }}</strong></h2>
+                        <p class="card-subtitle mb-2 text-muted">{{ user.username }}</p>
+                        <p class="card-text"><strong>"{{ review.review }}"</strong></p>
+                        <p class="card-text">{{ review.created_on}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+
+    {% endfor %}
+
+{% endblock %}
