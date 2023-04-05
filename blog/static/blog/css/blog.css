@@ -87,6 +87,11 @@
     font-size: 1.25rem!important;
 }
 
+.form-group {
+    font-weight: bold;
+    font-size: larger;
+}
+
 /* Media Queries */
 
 /* Media Queries Blog Detail */
