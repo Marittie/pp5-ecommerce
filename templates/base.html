@@ -131,11 +131,6 @@
 {% block content %}
 {% endblock %}
 
-{% block postloadjs %}
-<script>
-    $('.toast').toast('show');
-</script>
-{% endblock %}
             <!-- Footer -->
             <footer class="footer mt-auto py-3 bg-black background">
                 <div class="row text-center">
@@ -148,9 +143,10 @@
                         </ul>               
                     </div>            
                 </div>
-                <p class="m-0 text-center text-white">Jordaan Vintage & Charity</p>
-                <p class="m-0 text-center text-white" > contact us at Jordaanvintage&charity@gmail.com</p>
-                    <p class="m-0 text-center text-white">Follow us:
+                <div class="col bg-black text-white mt-auto py-3 bg-black background">
+                <p class="m-0 text-center ">Jordaan Vintage & Charity</p>
+                <p class="m-0 text-center " > contact us at Jordaanvintage&charity@gmail.com</p>
+                    <p class="m-0 text-center ">Follow us:
                     <!-- Facebook link-->
                     <a class="social-links" href="https://www.facebook.com/profile.php?id=100086773137178" target="_blank" rel="noopener"
                         aria-label="Please visit our Facebook Page (opens in a new tab)">
@@ -168,8 +164,13 @@
                         aria-label="Please visit our Youtube Page (opens in a new tab)">
                         <i class="fab fa-youtube-square ms-3"></i></a>
                 </p>
+                </div>
             </footer>
 
-
+            {% block postloadjs %}
+            <script>
+                $('.toast').toast('show');
+            </script>
+            {% endblock %}
 </body>
 </html>
