@@ -11,3 +11,4 @@ class BlogIdeaAdmin(SummernoteModelAdmin):
     search_fields = ['event_name', 'charity_name', 'content']
     list_filter = ('created_on',)
     summernote_fields = ('content')
+    
