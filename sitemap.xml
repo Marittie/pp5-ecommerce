@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://pp5-ecommerce.herokuapp.com/</loc>
+  <lastmod>2023-04-19T11:56:50+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://pp5-ecommerce.herokuapp.com/accounts/signup/</loc>
+  <lastmod>2023-04-19T11:56:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pp5-ecommerce.herokuapp.com/accounts/login/</loc>
+  <lastmod>2023-04-19T11:56:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pp5-ecommerce.herokuapp.com/bag/</loc>
+  <lastmod>2023-04-19T11:56:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pp5-ecommerce.herokuapp.com/items/?sort=price&amp;direction=asc</loc>
+  <lastmod>2023-04-19T11:56:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pp5-ecommerce.herokuapp.com/items/?sort=quality&amp;direction=asc</loc>
+  <lastmod>2023-04-19T11:56:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pp5-ecommerce.herokuapp.com/items/?sort=category&amp;direction=asc</loc>
+  <lastmod>2023-04-19T11:56:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pp5-ecommerce.herokuapp.com/items/</loc>
+  <lastmod>2023-04-19T11:56:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pp5-ecommerce.herokuapp.com/items/?category=women_skirts</loc>
+  <lastmod>2023-04-19T11:56:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pp5-ecommerce.herokuapp.com/items/?category=women_jeans</loc>
+  <lastmod>2023-04-19T11:56:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pp5-ecommerce.herokuapp.com/items/?category=women_tops</loc>
+  <lastmod>2023-04-19T11:56:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pp5-ecommerce.herokuapp.com/items/?category=women_skirts,women_jeans,women_tops</loc>
+  <lastmod>2023-04-19T11:56:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pp5-ecommerce.herokuapp.com/items/?category=men_jeans</loc>
+  <lastmod>2023-04-19T11:56:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pp5-ecommerce.herokuapp.com/items/?category=men_shirts</loc>
+  <lastmod>2023-04-19T11:56:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pp5-ecommerce.herokuapp.com/items/?category=men_t-shirts</loc>
+  <lastmod>2023-04-19T11:56:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pp5-ecommerce.herokuapp.com/items/?category=men_jeans,men_shirts,men_t-shirts</loc>
+  <lastmod>2023-04-19T11:56:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pp5-ecommerce.herokuapp.com/items/?category=kids_t-shirts</loc>
+  <lastmod>2023-04-19T11:56:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pp5-ecommerce.herokuapp.com/items/?category=kids_trousers</loc>
+  <lastmod>2023-04-19T11:56:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pp5-ecommerce.herokuapp.com/items/?category=kids_dresses_skirts</loc>
+  <lastmod>2023-04-19T11:56:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pp5-ecommerce.herokuapp.com/items/?category=kids_t-shirs,kids_trousers,kids_dresses_skirts</loc>
+  <lastmod>2023-04-19T11:56:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pp5-ecommerce.herokuapp.com/items/?category=Toys</loc>
+  <lastmod>2023-04-19T11:56:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pp5-ecommerce.herokuapp.com/blog/blog/</loc>
+  <lastmod>2023-04-19T11:56:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pp5-ecommerce.herokuapp.com/reviews/reviews/</loc>
+  <lastmod>2023-04-19T11:56:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pp5-ecommerce.herokuapp.com/donations/donations/</loc>
+  <lastmod>2023-04-19T11:56:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://pp5-ecommerce.herokuapp.com/accounts/password/reset/</loc>
+  <lastmod>2023-04-19T11:56:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pp5-ecommerce.herokuapp.com/items/b48d0846-d5dd-4d04-b60c-2459a70f20eb</loc>
+  <lastmod>2023-04-19T11:56:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pp5-ecommerce.herokuapp.com/items/7c019400-6392-4a5f-86fa-6e06c5bb5b31</loc>
+  <lastmod>2023-04-19T11:56:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pp5-ecommerce.herokuapp.com/items/912f0ce0-8e6a-418d-aac9-43d10486048d</loc>
+  <lastmod>2023-04-19T11:56:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pp5-ecommerce.herokuapp.com/items/94106569-04e9-4e5c-9317-00fbcddb9bcd</loc>
+  <lastmod>2023-04-19T11:56:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pp5-ecommerce.herokuapp.com/items/a9cf7b52-d19e-4192-9828-e6be6538a921</loc>
+  <lastmod>2023-04-19T11:56:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pp5-ecommerce.herokuapp.com/items/b284cde5-7ded-47e5-a4ee-3c06bcac3f5a</loc>
+  <lastmod>2023-04-19T11:56:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pp5-ecommerce.herokuapp.com/items/3127b8b6-5058-4cc1-8342-5ad3896e5659</loc>
+  <lastmod>2023-04-19T11:56:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pp5-ecommerce.herokuapp.com/items/98580277-4af9-467d-8515-05f2a61d4023</loc>
+  <lastmod>2023-04-19T11:56:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pp5-ecommerce.herokuapp.com/items/4841b741-6aee-41f1-a865-c61d6af0700e</loc>
+  <lastmod>2023-04-19T11:56:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pp5-ecommerce.herokuapp.com/items/40a8172f-575a-463f-9edb-4dcf4b78d093</loc>
+  <lastmod>2023-04-19T11:56:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pp5-ecommerce.herokuapp.com/items/67e131c9-39f3-4506-a87a-8ee29f1eedc9</loc>
+  <lastmod>2023-04-19T11:56:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pp5-ecommerce.herokuapp.com/items/1f01282d-c493-4139-bcd4-465fd85570e8</loc>
+  <lastmod>2023-04-19T11:56:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pp5-ecommerce.herokuapp.com/items/e4000b0b-7a02-4e5e-a93a-a264dc4f76c7</loc>
+  <lastmod>2023-04-19T11:56:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pp5-ecommerce.herokuapp.com/items/a604fabe-bda8-4dc1-91b7-2789897a3fe0</loc>
+  <lastmod>2023-04-19T11:56:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pp5-ecommerce.herokuapp.com/items/5fbabbcc-85db-4ec0-9c4a-5153913b2a65</loc>
+  <lastmod>2023-04-19T11:56:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pp5-ecommerce.herokuapp.com/items/2856267d-f0da-40b2-a48d-9664607a6674</loc>
+  <lastmod>2023-04-19T11:56:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pp5-ecommerce.herokuapp.com/accounts/login/?next=/reviews/create_review/</loc>
+  <lastmod>2023-04-19T11:56:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://pp5-ecommerce.herokuapp.com/accounts/signup/?next=%2Freviews%2Fcreate_review%2F</loc>
+  <lastmod>2023-04-19T11:56:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://pp5-ecommerce.herokuapp.com/accounts/login/?next=%2Freviews%2Fcreate_review%2F</loc>
+  <lastmod>2023-04-19T11:56:50+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+
+
+</urlset>
