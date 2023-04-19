@@ -16,6 +16,8 @@
 
     {% block corecss %}
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- mail chimp -->
+    <link href="//cdn-images.mailchimp.com/embedcode/classic-071822.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="{% static 'css/base.css' %}">
     {% endblock %}
 
@@ -107,6 +109,7 @@
         </nav>
     </div>
 </header>
+
 {% if messages %}
     <div class="message-container">
         {% for message in messages %}
@@ -128,10 +131,13 @@
 
 {% block page_header %}
 {% endblock %}
+
 {% block content %}
 {% endblock %}
 
+
             <!-- Footer -->
+            
             <footer class="footer mt-auto py-3 bg-black background">
                 <div class="row text-center">
                     <div class="col bg-black text-white">
@@ -139,7 +145,7 @@
                             <li class="list-inline-item nav-font"><a class="donate_subscribe" href="{% url 'blog' %}" >Blog</a></li>
                             <li class="list-inline-item nav-font"><a class="donate_subscribe" href="{% url 'reviews' %}" >Reviews</a></li>
                             <li class="list-inline-item nav-font"><a class="donate_subscribe" href="{% url 'donations' %}" >Donate your clothes and toys</a></li>
-                            <li class="list-inline-item nav-font"><a class="donate_subscribe" href="">Subscribe</a></li>  
+                            <li class="list-inline-item nav-font"><a class="donate_subscribe" href="{% url 'subscribe' %}">Subscribe</a></li>  
                         </ul>               
                     </div>            
                 </div>
@@ -148,7 +154,7 @@
                 <p class="m-0 text-center " > contact us at Jordaanvintage&charity@gmail.com</p>
                     <p class="m-0 text-center ">Follow us:
                     <!-- Facebook link-->
-                    <a class="social-links" href="https://www.facebook.com/profile.php?id=100086773137178" target="_blank" rel="noopener"
+                    <a class="social-links" href="https://www.facebook.com" target="_blank" rel="noopener"
                         aria-label="Please visit our Facebook Page (opens in a new tab)">
                         <i class="fab fa-facebook-square ms-3"></i></a>
                     <!-- Twitter link -->
@@ -166,6 +172,7 @@
                 </p>
                 </div>
             </footer>
+       
 
             {% block postloadjs %}
             <script>
