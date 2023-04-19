@@ -4,7 +4,7 @@ Jordaan Vintage & Charity is a charity ecommerce site.  It takes donations of cl
 
 You can reach the live site [here](https://pp5-ecommerce.herokuapp.com/)
 
-![Responsive Screens](/media/)
+![Responsive Screens](/media/responsive.png)
 
 # Table of content
 
@@ -86,7 +86,7 @@ This project was developed using agile methodologies, delivering small features 
 
 My kanban board was made using github projects which can be viewed [here](https://github.com/users/Marittie/projects/7).  Each view can be clicked in to obtain further information.
 
-![kanban](/media/)
+![kanban](/media/kanban.png)
 
 The user stories were grouped into different Epics
 
@@ -179,7 +179,7 @@ Epic 10 Tasks
 
 ## Structure
 
-### Laneys Loft Features
+### Jordaan Vintage & Charity Features
 
 Navbar
 
@@ -191,25 +191,25 @@ from the main top navigation bar, the user can log in or sign in.  Once logged i
 
 They can browse all the site products and check their shopping bag.  They can also search the site using the search bar.
 
-![Navbar full size nav bar](/media/)
+![Navbar full size nav bar](/media/full-navbar.png)
 
 on mobile devices the shopping navigation collapses into a dropdown square and the search bar drops down to a magnifying glass search icon
 
-![mobile nav bar](/media/)
+![mobile nav bar](/media/mobile-navbar.png)
 
 ### Home Page
 
 - User Story - As a user I want the front page to be clear and self-explanatory so I know I am in the right place
 
 The front page contains an image of a charity shop.  This gives the initial impression of pre-loved goods.
-![Hero Image](/media/)
+![Hero Image](/media/hero-image.png)
 The front page also contains a tagline advising the user they can shop or donate with a button to take them to either place on the website.  This gives an immediate idea of what the website is for.
 
-![tag line](/media/)
+![tag line](/media/tag-line.png)
 
 Under this is information about the site and how to shop or donate.
 
-![Welcome Text](/media/)
+![Welcome Text](/media/about.png)
 
 ### Footer
 
@@ -220,7 +220,7 @@ The Footer has been added to the bottom of the site and contains links to the si
 
 underneath the footer navigation bar users can see the contact email for the site and links to the social media pages.
 
-![Footer](/media/)
+![Footer](/media/footer.png)
 
 ### Browse Items
 
@@ -239,7 +239,7 @@ Users can also search by price.  They can also search for specific words in the 
 
 Users can select to see more detail about an item by clicking on the picture.  This takes them to a detail page where they can then add it to their basket if they wish
 
-![Detail Page](/media/)
+![Detail Page](/media/product-detail.png)
 
 ### Sign in, log in, log out
 
@@ -248,7 +248,7 @@ Users can select to see more detail about an item by clicking on the picture.  T
 - As a user, I want to be able to log out of the site safely and easily.
 - As a developer, I want to ensure the forms are all the same style and look good on all devices
 
-![log in](/media/) ![log in](/media/) ![log in](/media/)
+![log in](/media/signup.png) ![log in](/media/sign-in.png) ![log in](/media/sign-out.png)
 
 The sign-in, log-in, log-out pages were made using allauth.
 They all have a white background with round corner buttons and input boxes.
@@ -256,7 +256,7 @@ This creates continuity within the authorisation section of the site.  I have ma
 
 The user will receive a toast message saying they have successfully signed in and out.
 
-![log in toast](/media/) ![log out toast](/media/)
+![log in toast](/media/sign-in-success.png) ![log out toast](/media/signed-out-success.png)
 
 ### Shopping Bag
 
@@ -265,21 +265,21 @@ User Stories
 - As a user, I want to be able to delete items from my bag when I decide I no longer want something.
 - As a user I want to receive a confirmation when I have made changes i.e., adding and removing items to my bag so that I know when a change has been completed.
 
-![shopping Bag](/media/)
+![shopping Bag](/media/shopping-bag.png)
 
 The shopping bag shows a picture of the item(s) in the bag along with the item name, price, quantity (although it is only ever one because there is only one of each item) and the price.  There is also a delete button so items can be deleted easily.
 
 When items are added or deleted from the basked a success message appears that contains the bag content and a link to the checkout page.
 
-![shopping Bag](/media/) ![shopping Bag](/media/)
+![shopping Bag](/media/add-to-bag-succ.png) ![shopping Bag](/media/delete-from-bag-succ.png)
 
 ### Checkout Page
 
 User Stories
 - As a shopper, I want to be able to easily enter my payment details so that I can purchase my chosen items easily.
 
-![checkout 1](/media/)
-![checkout 2](/media)
+![checkout 1](/media/checkout-1.png)
+![checkout 2](/media/checkout-2.png)
 
 The checkout page has an easy-to-complete form that takes the user’s name, address and card details. It also has a summary of the purchase to confirm what is being bought.
 
@@ -299,7 +299,7 @@ Once the order has been processed a confirmation page tells the user the order d
  - As a user, I want to be able to access a profile page so that I can update my orders
  - As a user, I want to be able to update my details if I move house.
 
-![checkout 2](/media/)
+![checkout 2](/media/checkout-2.png)
 
 The profile page has the user’s address details available to edit if necessary.  It also has a record of all past shopping orders.
 
@@ -308,26 +308,24 @@ User stories:
 - As a site user I want to be able to see where the money from the site is being sent so I can feel good about my purchases
 
 The blog page shows a list of blog posts that have been entered by the site owner. 
-![blog](media/)
+![blog](media/blog-admin.png)
 
 The create edit and delete a blog post buttons are only visible to the superuser
-![blog](media/)
+![blog](media/blog-edit-delete.png)
 
 - As a site owner I want to be the only one who can create edit and delete blog posts
 
 The blog forms are all simple to use with clear instructions.
-![blog](media/)
+
 - As a site owner I want to easily be able to add blog entries to the Site
-![blog](media/)
 - As a site owner I want to be able to edit my blog posts so that I can make corrections easily
-![blog](media/)
 - As a site owner I want to be able to delete blog posts as necessary.
 
 ### Reviews
 - As a user, I would like to be able to read reviews about the site so I can decide if I want to use it
 
 The reviews page lists the customer reviews in order of the most recent first.  They are clear and easy to read.
-![reviews](media/)
+![reviews](media/review.png)
 
 - As a site user who is logged in I would like to be able to leave my own review so that I can tell others about my experience
 
@@ -339,11 +337,11 @@ Everyone can see the write a review button so that users are encouraged to write
 
 The donations form is simple to complete.  The user doesn't need to be logged in to arrange a collection.  They can just complete the form with the address details of the collection date and what and how many bags are to be collected.
 
-![donation](media/)
+![donation](media/donation-form.png)
 
 The user is then directed to a confirmation screen.
 
-![donation](media/)
+![donation](media/donation-confirmation.png)
 
 ### Subscribe
 

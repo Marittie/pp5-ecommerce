@@ -159,6 +159,16 @@ a.category-badge > span.badge:hover {
     opacity: 0.8;
 }
 
+.donation {
+    margin-bottom: 15px;
+    border-radius: 15px;
+    padding: 15px;
+    background-color: white;
+    color: black;
+    text-transform: capitalize;
+    opacity: 0.8;
+}
+
 /* overlay  */
 .overlay {
     height: 100%;
