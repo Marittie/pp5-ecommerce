@@ -32,7 +32,6 @@ You can reach the live site [here](https://pp5-ecommerce.herokuapp.com/)
     + [Subscribe](#subscribe)
   * [Facebook Page](#facebook-page)
 - [Keywords](#keywords)
-- [Wireframes](#wireframes)
 - [Database](#database)
 - [Security](#security)
 - [Design](#design)
@@ -61,7 +60,6 @@ You can reach the live site [here](https://pp5-ecommerce.herokuapp.com/)
     + [Emails](#emails)
   * [Accessibility](#accessibility)
   * [Validator Testing](#validator-testing)
-  * [PP8 Validator](#pp8-validator)
   * [Javascript](#javascript)
   * [Lighthouse Report](#lighthouse-report)
 - [Responsiveness](#responsiveness)
@@ -365,64 +363,6 @@ The keywords I thought of for this site were:
 
 I tried to use as many of these as I could around the site.  I added the about Laneys Loft section on the front page and added as many as I could fit into it. I also used a few in the blog section.
 
-# Wireframes
-
-Home Page
-
-![Home page wireframe](/media/)
-
-Sign Up
-
-![Sign up wireframe](/media/)
-
-Log In
-
-![Log in wireframe](/media/)
-
-Log out
-
-![log out wireframe](/media/)
-
-Products
-
-![Browse products wireframe](/media/)
-
-Product Detail
-
-![Item Detail wireframe](/media/)
-
-bag
-
-![bag wireframe](/media/)
-
-Checkout
-
-![checkout wireframe](/media/)
-
-Order Confirmation
-
-![Order Confirmation wireframe](/media/)
-
-Blog Post
-
-![Blog Post wireframe](/media/)
-
-Donation Form
-
-![Donation for wireframe](/media/)
-
-Collection Confirmation
-
-![Donation for wireframe](/media/)
-
-Reviews
-
-![Reviews wireframe](/media/)
-
-Write a review
-
-![Write Review wireframe](/media/)
-
 # Database
 
 The database was designed for the items to be tracked all the way through to sale and then recorded onto the user profile once sold.
@@ -625,9 +565,7 @@ I used the [Wave Accessibility](https://wave.webaim.org/)tool to check for aid a
 ## Validator Testing
 
 All pages were run through the [w3 HTML validator](https://validator.w3.org/).
-
-## PP8 Validator
-
+![w3 validation](media/w3-validator.png)
 
 ## Javascript
 I didn't use any Javascript in this project over the js used in boutique ado so I have not tested for that.
