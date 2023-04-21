@@ -350,7 +350,7 @@ Users can subscribe to the site’s mailing list.  Mailchimp has been used to se
 I set up my company’s Facebook page and added the link to the Facebook icon in the footer.
 
 Here is a screenshot of my page
-![reviews](media/)
+![facebook](media/facebook.png)
 
 # Keywords
 
