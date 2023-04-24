@@ -572,6 +572,8 @@ I didn't use any Javascript in this project over the js used in boutique ado so 
 
 ## Lighthouse Report
 
+![lighthouse performance](media/lighthouse.png)
+
 
 # Responsiveness
 
