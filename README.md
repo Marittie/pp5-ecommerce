@@ -199,7 +199,7 @@ on mobile devices the shopping navigation collapses into a dropdown square and t
 
 - User Story - As a user I want the front page to be clear and self-explanatory so I know I am in the right place
 
-The front page contains an image of a charity shop.  This gives the initial impression of pre-loved goods.
+The front page contains an image of a vintage shop.  This gives the initial impression of pre-loved goods.
 ![Hero Image](/media/hero-image.png)
 The front page also contains a tagline advising the user they can shop or donate with a button to take them to either place on the website.  This gives an immediate idea of what the website is for.
 
@@ -282,8 +282,6 @@ User Stories
 The checkout page has an easy-to-complete form that takes the user’s name, address and card details. It also has a summary of the purchase to confirm what is being bought.
 
 It also has a tick box to save the details to the profile page so it will be prefilled the next time they buy something.
-
-Despite the rest of the boxes on the site having rounded edges, I decided to keep the checkout boxes with sharp edges.  This is because it feels like a more important/trustworthy shape for an important transaction.
 
 ### Order Confirmation 
 
@@ -629,4 +627,7 @@ The app should now be deployed
 
 I want to thank:
 - The wonderful slack community
+- The wonderful Tutor support for the incredible help when I needed it
+- My business partner for the free time given to work on this project.
+- My wife for the full support.
 
